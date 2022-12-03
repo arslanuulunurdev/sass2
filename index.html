@@ -1,0 +1,899 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MOTION-WEB</title>
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <link rel="icon" href="./img/logo-motion-wep.svg">
+    <script src="js.js"></script>
+</head>
+<body>
+
+<header id="header">
+    <div class="container">
+        <div class="header">
+            <div class="header--logo">
+                <img src="./img/logo-motion-wep.svg" alt="img">
+                <h1>MOTION WEB</h1>
+            </div>
+            <nav class="header--nav">
+                <a href="#">Разработка логотипа</a>
+                <a href="#">Разработка сайта</a>
+                <a href="#">Услуги</a>
+                <a href="#">Портфолио</a>
+                <a href="#">База знаний</a>
+                <a href="#">Акции</a>
+                <div class="header--tel">
+                    <a href="tel:0(220)444-546">Заказать звонок</a>
+                </div>
+                <nav role="navigation">
+                    <div id="menuToggle">
+                        <!--
+                        A fake / hidden checkbox is used as click reciever,
+                        so you can use the :checked selector on it.
+                        -->
+                        <input type="checkbox"/>
+
+                        <!--
+                        Some spans to act as a hamburger.
+
+                        They are acting like a real hamburger,
+                        not that McDonalds stuff.
+                        -->
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                        <!--
+                        Too bad the menu has to be inside of the button
+                        but hey, it's pure CSS magic.
+                        -->
+                        <ul id="menu">
+                            <a href="#">
+                                <li>Разработка логотипа</li>
+                            </a>
+                            <a href="#">
+                                <li>Разработка сайта</li>
+                            </a>
+                            <a href="#">
+                                <li>Услуги</li>
+                            </a>
+                            <a href="#">
+                                <li>Портфолио</li>
+                            </a>
+                            <a href="#">
+                                <li>База знаний</li>
+                            </a>
+                            <a href="#">
+                                <li>Акции</li>
+                            </a>
+                            <a href="https://erikterwan.com/" target="_blank">
+                                <li>Show me more</li>
+                            </a>
+                        </ul>
+                    </div>
+                </nav>
+            </nav>
+
+
+        </div>
+    </div>
+</header>
+
+<section id="hero">
+    <div class="container">
+        <div class="hero">
+            <div class="hero--studio">
+                <h1>MOTION WEB <br>
+                    IT STUDIO</h1>
+                <h4>В срок, с гарантией, для Вас</h4>
+                <button>Получить концультацию</button>
+                <p>Мы не передаем данные 3-им лицам. Отправляя заявку, вы соглашаетесь с политикой обработки
+                    персональных данных
+                </p>
+            </div>
+            <div class="hero--icon">
+                <a href="whatsapp:0(777)273-058">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+                <a href="instagram:">
+                    <ion-icon name="logo-instagram">
+                    </ion-icon>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<section id="work">
+    <div class="container">
+        <div class="work">
+            <div class="work--block">
+                <a href="#">
+                    <ion-icon name="settings-outline"></ion-icon>
+                </a>
+                <h1>Используем популярные технологии</h1>
+            </div>
+            <div class="work--block">
+                <a href="#">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                </a>
+                <h1>Адаптивный дизайн
+                    — по умолчанию</h1>
+            </div>
+            <div class="work--block">
+                <a href="#">
+                    <img src="./img/Group%2022.svg" alt="img">
+                </a>
+                <h1>Настраиваем SEO для сайта</h1>
+            </div>
+            <div class="work--block">
+                <a href="#">
+                    <ion-icon name="chatbox-outline"></ion-icon>
+                </a>
+                <h1>Техническая поддержка на 2 месяца бесплатно</h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="avto">
+    <div class="container">
+        <div class="avto">
+            <h1>Наши работы</h1>
+            <div class="avto--block">
+                <img src="./img/avto.png" alt="img">
+                <img src="./img/avto.png" alt="img">
+                <img src="./img/avto.png" alt="img">
+                <img src="./img/avto.png" alt="img">
+                <img src="./img/avto.png" alt="img">
+                <img src="./img/avto.png" alt="img">
+                <img src="./img/avto.png" alt="img">
+                <img src="./img/avto.png" alt="img">
+                <img src="./img/avto.png" alt="img">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="nice">
+    <div class="container">
+        <h1>Наши услуги</h1>
+        <div class="nice">
+            <div class="nice--block">
+                <div class="nice--block__blocks">
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                </div>
+                <div class="nice--block__icon">
+                    <a href="">
+                        <ion-icon name="newspaper-outline"></ion-icon>
+                    </a>
+                </div>
+                <h1>Landing-page</h1>
+                <p>С учетом поведенческих факторов <br>
+                    разработаем рекламно- <br>
+                    презентационную страницу <br>
+                    побуждающую пользователя к <br>
+                    совершению целевого действия — <br>
+                    заказ, звонок, заявка.</p>
+                <div class="nice--block__sen">
+                    <h1>Стоимость:</h1>
+                    <h2>от 35 000 р</h2>
+                </div>
+            </div>
+            <div class="nice--block">
+                <div class="nice--block__blocks">
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                </div>
+                <div class="nice--block__icon">
+                    <a href="">
+                        <ion-icon name="newspaper-outline"></ion-icon>
+                    </a>
+                </div>
+                <h1>Landing-page</h1>
+                <p>С учетом поведенческих факторов <br>
+                    разработаем рекламно- <br>
+                    презентационную страницу <br>
+                    побуждающую пользователя к <br>
+                    совершению целевого действия — <br>
+                    заказ, звонок, заявка.</p>
+                <div class="nice--block__sen">
+                    <h1>Стоимость:</h1>
+                    <h2>от 35 000 р</h2>
+                </div>
+            </div>
+            <div class="nice--block">
+                <div class="nice--block__blocks">
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                </div>
+                <div class="nice--block__icon">
+                    <a href="">
+                        <ion-icon name="newspaper-outline"></ion-icon>
+                    </a>
+                </div>
+                <h1>Landing-page</h1>
+                <p>С учетом поведенческих факторов <br>
+                    разработаем рекламно- <br>
+                    презентационную страницу <br>
+                    побуждающую пользователя к <br>
+                    совершению целевого действия — <br>
+                    заказ, звонок, заявка.</p>
+                <div class="nice--block__sen">
+                    <h1>Стоимость:</h1>
+                    <h2>от 35 000 р</h2>
+                </div>
+            </div>
+            <div class="nice--block">
+                <div class="nice--block__blocks">
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                </div>
+                <div class="nice--block__icon">
+                    <a href="">
+                        <ion-icon name="newspaper-outline"></ion-icon>
+                    </a>
+                </div>
+                <h1>Landing-page</h1>
+                <p>С учетом поведенческих факторов <br>
+                    разработаем рекламно- <br>
+                    презентационную страницу <br>
+                    побуждающую пользователя к <br>
+                    совершению целевого действия — <br>
+                    заказ, звонок, заявка.</p>
+                <div class="nice--block__sen">
+                    <h1>Стоимость:</h1>
+                    <h2>от 35 000 р</h2>
+                </div>
+            </div>
+            <div class="nice--block">
+                <div class="nice--block__blocks">
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                </div>
+                <div class="nice--block__icon">
+                    <a href="">
+                        <ion-icon name="newspaper-outline"></ion-icon>
+                    </a>
+                </div>
+                <h1>Landing-page</h1>
+                <p>С учетом поведенческих факторов <br>
+                    разработаем рекламно- <br>
+                    презентационную страницу <br>
+                    побуждающую пользователя к <br>
+                    совершению целевого действия — <br>
+                    заказ, звонок, заявка.</p>
+                <div class="nice--block__sen">
+                    <h1>Стоимость:</h1>
+                    <h2>от 35 000 р</h2>
+                </div>
+            </div>
+            <div class="nice--block">
+                <div class="nice--block__blocks">
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                </div>
+                <div class="nice--block__icon">
+                    <a href="">
+                        <ion-icon name="newspaper-outline"></ion-icon>
+                    </a>
+                </div>
+                <h1>Landing-page</h1>
+                <p>С учетом поведенческих факторов <br>
+                    разработаем рекламно- <br>
+                    презентационную страницу <br>
+                    побуждающую пользователя к <br>
+                    совершению целевого действия — <br>
+                    заказ, звонок, заявка.</p>
+                <div class="nice--block__sen">
+                    <h1>Стоимость:</h1>
+                    <h2>от 35 000 р</h2>
+                </div>
+            </div>
+            <div class="nice--block">
+                <div class="nice--block__blocks">
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                </div>
+                <div class="nice--block__icon">
+                    <a href="">
+                        <ion-icon name="newspaper-outline"></ion-icon>
+                    </a>
+                </div>
+                <h1>Landing-page</h1>
+                <p>С учетом поведенческих факторов <br>
+                    разработаем рекламно- <br>
+                    презентационную страницу <br>
+                    побуждающую пользователя к <br>
+                    совершению целевого действия — <br>
+                    заказ, звонок, заявка.</p>
+                <div class="nice--block__sen">
+                    <h1>Стоимость:</h1>
+                    <h2>от 35 000 р</h2>
+                </div>
+            </div>
+            <div class="nice--block">
+                <div class="nice--block__blocks">
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                </div>
+                <div class="nice--block__icon">
+                    <a href="">
+                        <ion-icon name="newspaper-outline"></ion-icon>
+                    </a>
+                </div>
+                <h1>Landing-page</h1>
+                <p>С учетом поведенческих факторов <br>
+                    разработаем рекламно- <br>
+                    презентационную страницу <br>
+                    побуждающую пользователя к <br>
+                    совершению целевого действия — <br>
+                    заказ, звонок, заявка.</p>
+                <div class="nice--block__sen">
+                    <h1>Стоимость:</h1>
+                    <h2>от 35 000 р</h2>
+                </div>
+            </div>
+            <div class="nice--block">
+                <div class="nice--block__blocks">
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                    <div class="nice--block__blocks--ss"></div>
+                </div>
+                <div class="nice--block__icon">
+                    <a href="">
+                        <ion-icon name="newspaper-outline"></ion-icon>
+                    </a>
+                </div>
+                <h1>Landing-page</h1>
+                <p>С учетом поведенческих факторов <br>
+                    разработаем рекламно- <br>
+                    презентационную страницу <br>
+                    побуждающую пользователя к <br>
+                    совершению целевого действия — <br>
+                    заказ, звонок, заявка.</p>
+                <div class="nice--block__sen">
+                    <h1>Стоимость:</h1>
+                    <h2>от 35 000 р</h2>
+                </div>
+            </div>
+            <div class="nice--btn">
+                <button>Оставить заявку</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="protces">
+    <div class="container">
+        <h1>Процесс разработки IT продукта</h1>
+        <div class="protces">
+            <div class="protces--block1">
+                <div class="protces--block1__mini1">
+                    <img src="./img/1.svg" alt="img">
+                    <div class="protces--block1__mini1--title">
+                        <h2>Планирование</h2>
+                        <p>Грамотное проектирование будущего
+                            проекта играет ключевую роль для
+                            всего проекта. За этот этап и за успех
+                            всего процесса разработки несет ответственность проектный менеджер.В этот этап входит:
+                        </p>
+                        <div class="protces--block1__mini1--title__div">
+                            <div class="protces--block1__mini1--title__div--toch"></div>
+                            <h3>анализ требований заказчика,</h3>
+                        </div>
+                        <div class="protces--block1__mini1--title__div">
+                            <div class="protces--block1__mini1--title__div--toch"></div>
+                            <h3>планирование этапов работ, <br> сроков, ресурсов и стоимости.</h3>
+                        </div>
+                        <div class="protces--block1__mini1--title__colon">
+                            <div class="protces--block1__mini1--title__colon--melon"></div>
+                            <div class="protces--block1__mini1--title__colon--melon"></div>
+                            <div class="protces--block1__mini1--title__colon--melon"></div>
+                            <div class="protces--block1__mini1--title__colon--melon"></div>
+                            <div class="protces--block1__mini1--title__colon--melon"></div>
+                            <div class="protces--block1__mini1--title__colon--melon"></div>
+                            <div class="protces--block1__mini1--title__colon--melon"></div>
+                        </div>
+                        <div class="protces--block1__mini1--title__lavv1"></div>
+                        <div class="protces--block1__mini1--title__lavv2"></div>
+                        <div class="protces--block1__mini1--title__lavv3"></div>
+                        <div class="protces--block1__mini1--title__lavv4"></div>
+                    </div>
+
+                </div>
+
+                <div class="protces--block1__mini2">
+                    <img src="./img/2.png" alt="img">
+                    <div class="protces--block1__mini2--title">
+                        <h2>Проектирование </h2>
+                        <p>Грамотное проектирование будущего
+                            проекта играет ключевую роль для
+                            всего проекта. За этот этап и за успех
+                            всего процесса разработки несет ответственность проектный менеджер.В этот этап входит:
+                        </p>
+                        <div class="protces--block1__mini2--title__div">
+                            <div class="protces--block1__mini2--title__div--toch"></div>
+                            <h3>анализ требований заказчика к дизайну,
+                            </h3>
+                        </div>
+                        <div class="protces--block1__mini2--title__div">
+                            <div class="protces--block1__mini2--title__div--toch"></div>
+                            <h3>разработка индивидуального дизайна.</h3>
+                        </div>
+                        <img src="./img/globus.png" alt="img">
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="protces--block3">
+                <div class="protces--block3__mini3">
+                    <img src="./img/3.png" alt="img">
+                    <div class="protces--block3__mini3--title">
+                        <h2>Разработка </h2>
+                        <p>Это написание и поддержка качества кода. Над продуктом работают:
+                            <br>
+                            Front-end, back-end, android и ios-разработчики.
+                        </p>
+                        <div class="protces--block3__mini3--title__nike">
+                            <div class="protces--block3__mini3--title__nike--adidac">
+                                <a href="#"><ion-icon name="chevron-forward-outline"></ion-icon></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="protces--block4__mini1">
+                    <img src="./img/4.png" alt="img">
+                    <div class="protces--block2__mini1--title">
+                        <h2>Тестирование</h2>
+                        <p>Это написание и поддержка качества кода. Над продуктом работают:
+                            <br>
+                            <br>
+                            Front-end, back-end, android и ios-разработчики.
+                        </p>
+                        <div class="protces--block2__mini1--title__div">
+                            <div class="protces--block1__mini1--title__div--toch"></div>
+                            <h3>анализ требований заказчика,</h3>
+                        </div>
+                        <div class="protces--block2__mini1--title__div">
+                            <div class="protces--block2__mini1--title__div--toch"></div>
+                            <h3>планирование этапов работ, <br> сроков, ресурсов и стоимости.</h3>
+                        </div>
+                        <div class="protces--block2__mini1--title__colon">
+                            <div class="protces--block1__mini1--title__colon--melon"></div>
+                            <div class="protces--block1__mini1--title__colon--melon"></div>
+                            <div class="protces--block1__mini1--title__colon--melon"></div>
+                            <div class="protces--block1__mini1--title__colon--melon"></div>
+                            <div class="protces--block1__mini1--title__colon--melon"></div>
+                            <div class="protces--block1__mini1--title__colon--melon"></div>
+                            <div class="protces--block1__mini1--title__colon--melon"></div>
+                        </div>
+                        <div class="protces--block2__mini1--title__lavv1"></div>
+                        <div class="protces--block1__mini1--title__lavv2"></div>
+                        <div class="protces--block1__mini1--title__lavv3"></div>
+                        <div class="protces--block1__mini1--title__lavv4"></div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+<section id="sdudiy">
+    <div class="container">
+        <div class="sdudiy">
+            <div class="sdudiy--title">
+                <h1>Про студию</h1>
+                <p>
+                    Веб студия «Motion web» — это группа креативных, талантливых людей, объединенных общей идеей
+                    создания качественных многофункциональных сайтов. И брендов.
+                    Слаженная и оперативная работа позволяет нам в сжатые сроки предоставить нашим клиентам уникальный
+                    продукт, отвечающий всем требованиям современного сайтостроения.
+                    <br>
+                    <br>
+                    У всех людей разные вкусы и свое видение прекрасного. Кто-то любит яркие краски и броский, веселый
+                    дизайн. Кто-то – наоборот, спокойные,
+                    пастельные тона и строгий деловой стиль. И от того, насколько точно
+                    удастся определить желания заказчика, зависит успех всего проекта.
+                    Поэтому главными принципами нашей работы являются:
+                    терпение, понимание и уважение к нашим клиентам.
+                </p>
+            </div>
+            <img src="./img/mb11.png" alt="img">
+        </div>
+
+    </div>
+</section>
+
+<section id="tabs">
+    <div class="container">
+        <h1>Технологии</h1>
+        <div class="tabs">
+            <div class="tabs--label">
+                <label for="all"></label>
+                <label for="Frontend">
+                    <div class="neinn">
+                        <div class="mein"></div>
+                        Frontend
+                    </div>
+                </label>
+                <label for="Backend">
+                    <div class="neinn2">
+                        <div class="mein2"></div>
+                        Backend
+                    </div>
+                </label>
+                <label for="UIUX">
+                    <div class="neinn3">
+                        <div class="mein3"></div>
+                        UI/UX
+                    </div>
+                </label>
+                <label for="Database">
+                    <div class="neinn4">
+                        <div class="mein4"></div>
+                        Database
+                    </div>
+                </label>
+            </div>
+            <div class="tabs--input">
+                <input type="radio" name="tabs" id="all">
+
+                <input type="radio" name="tabs" id="Frontend">
+                <input type="radio" name="tabs" id="Backend">
+                <input type="radio" name="tabs" id="UIUX">
+                <input type="radio" name="tabs" id="Database">
+
+                <div class="tabs--input__tabs1">
+                    <img src="./img/icon-square-big.svg" alt="img">
+                    <h6>Webpack</h6>
+                </div>
+                <div class="tabs--input__tabs1">
+                    <img src="./img/1222.svg" alt="img">
+                    <h6>React</h6>
+                </div>
+                <div class="tabs--input__tabs1">
+                    <img src="./img/13333.svg" alt="img">
+                    <h6>Babel</h6>
+                </div>
+                <div class="tabs--input__tabs1">
+                    <img src="./img/1444.svg" alt="img">
+                    <h6>JavaScript</h6>
+                </div>
+                <div class="tabs--input__tabs1">
+                    <img src="./img/1555.svg" alt="img">
+                    <h6>Nuxt.js
+                    </h6>
+                </div>
+
+                <div class="tabs--input__tabs2">
+                    <img src="./img/1666.svg" alt="img">
+                    <h6>Figma</h6>
+                </div>
+                <div class="tabs--input__tabs2">
+                    <img src="./img/1777.svg" alt="img">
+                    <h6>Adobe Suite
+                    </h6>
+                </div>
+
+                <div class="tabs--input__tabs3">
+                    <img src="./img/1888.svg" alt="img">
+                    <h6>C++
+                    </h6>
+                </div>
+                <div class="tabs--input__tabs3">
+                    <img src="./img/1999.svg" alt="img">
+                    <h6>Python</h6>
+                </div>
+
+
+                <div class="tabs--input__tabs1">
+                    <img src="./img/2222.svg" alt="img">
+                    <h6>Sass</h6>
+                </div>
+                <div class="tabs--input__tabs1">
+                    <img src="./img/2333.svg" alt="img">
+                    <h6>Next.js
+                    </h6>
+                </div>
+                <div class="tabs--input__tabs1">
+                    <img src="./img/2444.png" alt="img">
+                    <h6>TypeScript</h6>
+                </div>
+                <div class="tabs--input__tabs1">
+                    <img src="./img/2555.png" alt="img">
+                    <h6>Bootstrap</h6>
+                </div>
+                <div class="tabs--input__tabs1">
+                    <img src="./img/2666.png" alt="img">
+                    <h6>PostCSS</h6>
+                </div>
+
+                <div class="tabs--input__tabs2">
+                    <img src="./img/2777.png" alt="img">
+                    <h6>Sketch</h6>
+                </div>
+                <div class="tabs--input__tabs2">
+                    <img src="./img/2888.png" alt="img">
+                    <h6>Photoshop</h6>
+                </div>
+
+                <div class="tabs--input__tabs3">
+                    <img src="./img/29909.png" alt="img">
+                    <h6>Ruby</h6>
+                </div>
+                <div class="tabs--input__tabs3">
+                    <img src="./img/3000.png" alt="img">
+                    <h6>C</h6>
+                </div>
+
+
+                <div class="tabs--input__tabs1">
+                    <img src="./img/3111.png" alt="img">
+                    <h6>Angular</h6>
+                </div>
+                <div class="tabs--input__tabs1">
+                    <img src="./img/3222.png" alt="img">
+                    <h6>Redux</h6>
+                </div>
+                <div class="tabs--input__tabs1">
+                    <img src="./img/3333.png" alt="img">
+                    <h6>Vue</h6>
+                </div>
+
+                <div class="tabs--input__tabs4">
+                    <img src="./img/3444.png" alt="img">
+                    <h6>Git</h6>
+                </div>
+                <div class="tabs--input__tabs4">
+                    <img src="./img/3555.png" alt="img">
+                    <h6>MySQL</h6>
+                </div>
+                <div class="tabs--input__tabs4">
+                    <img src="./img/3666.png" alt="img">
+                    <h6>MongoDB</h6>
+                </div>
+
+                <div class="tabs--input__tabs3">
+                    <img src="./img/3777.png" alt="img">
+                    <h6>Node.js</h6>
+                </div>
+                <div class="tabs--input__tabs3">
+                    <img src="./img/3888.png" alt="img">
+                    <h6>PHP</h6>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="our">
+    <div class="container">
+        <h1>Наша команда</h1>
+        <div class="our">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="our--title">
+                            <img src="./img/Rectangle%203434.png" alt="img">
+                            <h2>Kubanych Akylbekov</h2>
+                            <p>UX / UI designer</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="our--title">
+                            <img src="./img/Rectangle%2028.png" alt="img">
+                            <h2>Kanatbek Askerov </h2>
+                            <p>Co-Founder</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="our--title">
+                            <img src="./img/nurdoolot3.png" alt="img">
+                            <h2>Kurmanbek Jooshbaev</h2>
+                            <p>Founder</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="our--title">
+                            <img src="./img/Rectangle%2030.png" alt="img">
+                            <h2>Dastan Mukeev</h2>
+                            <p>Team leader / <br>
+                                Frontend-developer</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="our--title">
+                            <img src="./img/Rectangle%2029.png" alt="img">
+                            <h2>Nurjamal Damirbolot</h2>
+                            <p>UX / UI designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="links">
+    <div class="container">
+        <h1>Оставьте вашу заявку</h1>
+        <div class="links">
+            <p class="links--p">Мы с удовольствием ответим на все Ваши вопросы и проведем необходимые <br> уточнения. В
+                случае, если Вы не найдете ответы на Ваши вопросы на нашем
+                <br> сайте, просмотрите раздел FAQ или обратитесь непосредственно к нам.</p>
+            <div class="links--inputs" data-aos="flip-left">
+                <div class="input">
+                    <input type="text" placeholder="Ваше имя">
+                    <input type="text" placeholder="Город">
+                </div>
+                <div class="input">
+                    <input type="number" placeholder="Телефон">
+                    <input type="email" placeholder="E-mail">
+                </div>
+                <input type="text" placeholder="Ваш вопрос" class="links--inputs__bg">
+                <button>Отправить</button>
+                <p>Нажимая на кнопку «Отправить», я даю согласие на обработку <br>
+                    персональных данных и соглашаюсь с политикой конфиденциальности</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="footer">
+    <div class="container">
+        <div class="footer">
+            <div class="footer--left">
+                <h1>У вас есть проект?</h1>
+                <button>Заказать проект</button>
+                <p>Моушн студио Motion Web LLC</p>
+                <div class="footer--left__bg">
+                    <a href="#">
+                        <ion-icon name="location-outline"></ion-icon>
+                    </a>
+                    <p>г. Бишкек, Турусбекова 109/3</p>
+                </div>
+                <div class="footer--left__bg">
+                    <a href="tel:+996 (703) 68 41 76">
+                        <ion-icon name="call-outline"></ion-icon>
+                    </a>
+                    <p>+996 (703) 68 41 76</p>
+                </div>
+                <div class="footer--left__bg">
+                    <a href="emile:Motionweb312@gmail.com">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </a>
+                    <p>Motionweb312@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer--right">
+                <div class="footer--right__bg">
+                    <h1>Меню</h1>
+                    <p>Разработка логотипа</p>
+                    <p>Разработка сайта</p>
+                    <p>Услуги</p>
+                    <p>Портфолио</p>
+                    <p>База знаний</p>
+                    <p>Акции</p>
+                </div>
+                <div class="footer--right__bg">
+                    <h1>Услуги</h1>
+                    <p>Landing-page</p>
+                    <p>Корпоративный сайт</p>
+                    <p>Сайт-визитка</p>
+                    <p>Сайт каталог</p>
+                    <p>Интернет-магазин</p>
+                    <p>Фирменный стиль</p>
+                    <p>Поддержка сайтов</p>
+                    <p>Продвижение сайтов</p>
+                    <p>Наполнение контентом</p>
+                </div>
+                <div class="footer--right__bg">
+                    <h1>Инфо.блок</h1>
+                    <p>Контакты</p>
+                    <p>Вакансии</p>
+                    <p>Акции</p>
+                    <p>Цены</p>
+                    <p>Оплата логотипа</p>
+                    <p>Онлайн школа</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
